@@ -6,7 +6,7 @@ module.exports = ()=>{
 
     const app = express();
 
-    app.use(bodyParser.jsong());
+    app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended: true}));
 
     consign()
